@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,700|Quicksand:400,700&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 20px;
+  color: #DA84A2;
+  background-image: url("images/sushi.png");
+  background-size: 100% 100%;
+}
+
+h1 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 36px;
+  color: #80B2B5;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #80B2B5;
+}
+
+a:visited {
+  color: #DA84A2;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.card {
+  border-radius: 25px;
+  /* background-image: repeating-linear-gradient(rgba(255,255,255,0.75), rgba(128, 178, 181,0.75)); */
+  background-color: rgba(255,255,255,0.7);
+  box-shadow: 4px 4px 8px rgb(0,0,0,0.1);
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 32px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.circle-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 2px solid #80B2B5;
+  box-shadow: 4px 4px 8px rgb(0,0,0,0.1);
+}
+
+.inline {
+  display: inline-block;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.btn-blue {
+  width: 50px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  background-color: #80B2B5;
+  padding: 15px 20px;
+}
+
+.btn-blue:hover {
+  background-color: #DA84A2;
+  color: white;
+}
+
+.btn-blue:visited {
+  color: white;
+}
+
+.kerned {
+  letter-spacing: 1.5em;
+  font-weight: bold;
+  color: #80B2B5;
+}
+
+.shadow {
+  text-shadow:
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#profile-img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+#bio-p {
+  padding: 10px 5px 20px;
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 100%;
+    line-height: 30px;
+  }
+}
